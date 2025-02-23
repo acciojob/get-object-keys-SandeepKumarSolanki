@@ -6,9 +6,7 @@ const student = {
 	city : "Noida"
 }
 
-function getKeys(obj) {
-	return Object.keys(obj);
-}
+const keys = Object.keys(student)
 
-let keys = getKeys(student);
-console.log(student);
+
+console.log(keys);
