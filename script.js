@@ -12,8 +12,8 @@ function getKeys(obj) {
   return Object.keys(obj);
 }
 
-// Testing the function
-console.log(getKeys(student)); // Output: ["name", "age", "city"]
+// Exporting getKeys function if needed for your tests (for example, in Cypress testing)
+window.getKeys = getKeys;
 
 
 
