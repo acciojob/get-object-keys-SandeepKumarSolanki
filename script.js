@@ -1,22 +1,20 @@
 //your JS code here. If required.
 
-const student1 = {
-	name : "John",
-	age : 21,
-	city : "Noida"
+// Create the student object
+const student = {
+  name: "John",
+  age: 20,
+  city: "New York"
+};
+
+// Function to get all keys from the object
+function getKeys(obj) {
+  return Object.keys(obj);
 }
 
-const student2 = {
-	name : "Amit"
-}
-function findKeys(obj) {
-	return Object.keys(obj);
-}
+// Testing the function
+console.log(getKeys(student)); // Output: ["name", "age", "city"]
 
-let keys1 = [...findKeys(student1)]
-let keys2 = [...findKeys(student2)]
-console.log(keys1);
-console.log(keys2);
 
 
 
