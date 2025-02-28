@@ -1,15 +1,12 @@
-// Create the student object with the getKeys method
+// Create the student object
 const student = {
   name: "John",
-  age: 20,
-  city: "New York",
-  getKeys: function() {
-    return Object.keys(this);
-  }
 };
 
-// Now you can use myObj.getKeys()
-// In your tests
-const myObj = student;  // Assuming myObj is supposed to be the student object
-console.log(myObj.getKeys()); // Output: ["name", "age", "city"]
+// Function to get all keys from the object
+function getKeys(obj) {
+  return Object.keys(obj); // Returns an array of keys of the object
+}
 
+// Testing the function
+console.log(getKeys(student)); // Output: ["name"]
