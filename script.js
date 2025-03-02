@@ -1,8 +1,8 @@
 // Create the Student class
 class Student {
   getKeys(obj) {
-    let keyValue = Object.keys(obj);  // Get keys of the passed object
-    return keyValue;  // Return the keys as an array
+    return  Object.keys(obj);  // Get keys of the passed object
+     // Return the keys as an array
   }
 }
 
