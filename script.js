@@ -5,9 +5,17 @@ class Student{
   }
 };
 
-let student = {
-	name: "dev"
+const detail = {
+	name : "dev",
+	age : 21,
+	city : "Lucknow"
 }
+
+// Create the student object
+const student = {
+  name: "John",
+};
 
 let myObj = new Student()
 console.log(myObj.getKeys(student))
+console.log(myObj.getKeys(detail));
