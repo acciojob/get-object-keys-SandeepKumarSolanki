@@ -9,5 +9,5 @@ let student = {
 	name: "dev"
 }
 
-let st = new Student()
-console.log(st.getKeys(student))
+let myObj = new Student()
+console.log(myObj.getKeys(student))
