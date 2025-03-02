@@ -5,9 +5,9 @@ class Student{
   }
 };
 
-let obj = {
+let student = {
 	name: "dev"
 }
 
-let st = new Student("Dev")
-console.log(st.getKeys(obj))
+let st = new Student()
+console.log(st.getKeys(student))
