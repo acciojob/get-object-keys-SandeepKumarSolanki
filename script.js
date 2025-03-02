@@ -1,21 +1,23 @@
-// Create the student object
-class Student{
-  getKeys(obj){
-	  return Object.keys(obj)
+// Create the Student class
+class Student {
+  getKeys(obj) {
+    let keyValue = Object.keys(obj);  // Get keys of the passed object
+    return keyValue;  // Return the keys as an array
   }
-};
-
-const detail = {
-	name : "dev",
-	age : 21,
-	city : "Lucknow"
 }
 
-// Create the student object
+
+const detail = {
+  name: "dev",
+  age: 21,
+  city: "Lucknow"
+};
+
 const student = {
   name: "John",
 };
 
-let myObj = new Student()
-console.log(myObj.getKeys(student))
-console.log(myObj.getKeys(detail));
+let myObj = new Student();
+
+console.log(myObj.getKeys(student));  
+console.log(myObj.getKeys(detail));   
