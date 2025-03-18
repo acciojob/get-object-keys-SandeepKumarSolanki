@@ -1,16 +1,16 @@
 const student = {
-	name : "John"
+  name: "John"
+};
+
+const info = {
+  name: "John",
+  age: 30,
+  city: "123 Main Street"
+};
+
+function getKeys(obj) {
+  return Object.keys(obj);  // Correct usage of Object.keys()
 }
 
-const info= {
-	name : "John",
-	age : 30,
-	city : "123 Main Street"
-}
-
-function getKeys(obj){
-	return Object.keys(obj);
-}
-
-console.log(getKeys(student));
-console.log(getKeys(info));
+console.log(getKeys(student));  // ["name"]
+console.log(getKeys(info));     // ["name", "age", "city"]
