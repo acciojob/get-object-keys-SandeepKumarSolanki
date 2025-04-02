@@ -1,16 +1,13 @@
+// Create the student object
 const student = {
-  name: "John"
-};
-
-const info = {
-  name: "John",
-  age: 30,
-  city: "123 Main Street"
+  name: "John",  
+  age: 25,      
+  city: "New York"  
 };
 
 function getKeys(obj) {
-  return Object.keys(this);  // Correct usage of Object.keys()
+  return Object.keys(obj);  
 }
 
-console.log(getKeys(student));  // ["name"]
-console.log(getKeys(info));     // ["name", "age", "city"]
+
+console.log(getKeys(student));  
