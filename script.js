@@ -10,4 +10,4 @@ Object.prototype.getKeys= () => {
 }
 
 
-console.log(getKeys(student));  
+console.log(student.getKeys());  
